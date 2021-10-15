@@ -1,9 +1,9 @@
 import React from "react";
 
-function Header(props){
+function Header( {videoTitle} ){
     return (
         <header>
-            <h1 className="title">{props.videoTitle}</h1>
+            <h1 className="title">{videoTitle}</h1>
         </header>
     )
 }
